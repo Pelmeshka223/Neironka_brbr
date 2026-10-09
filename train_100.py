@@ -14,8 +14,8 @@ def main():
     model.train(
         data="datasets/data.yaml",
         epochs=52,
-        imgsz=640,
-        batch=8,
+        imgsz=320,
+        batch=16,
         workers=0,
         device="0",
         optimizer="auto",
